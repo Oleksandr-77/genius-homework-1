@@ -1,0 +1,57 @@
+:root {
+    /* --color-text-number: rgba(255, 255, 255, 0.6);
+    --color-icons: #afb1b8;
+    --fone-color-icon: rgba(255, 255, 255, 0.1);
+    --time-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --input-border: rgba(33, 33, 33, 0.2); */ 
+  /* --header-border-color: #ececec; */
+  --color-primery-text: #011c44;
+  --color-primary-white: #ffffff;
+  --color-primery-accent: #2b7fff;
+  --color-gray-dark: #4a4a4a;
+  --color-gray-ligth: #747272;
+  --color-secondary-blu: #011F4A;
+}
+
+body {
+  color: var(--color-primery-text);
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  color: var(--color-primary-white);
+  background-color: var(--color-primery-accent);
+  border: 2px solid var(--color-primery-accent);
+  border-radius: 32px;
+  padding: 16px 32px;
+  width: 219px;
+  height: 53px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primery-text);
+  background-color: transparent;
+}
+
+.link {
+  color: var(--color-primery-text);
+}
+
+.link:hover {
+  color: var(--color-primery-accent);
+}
+
+.hero-title {
+  color: var(--color-primery-accent);
+}
