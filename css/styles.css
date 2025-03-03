@@ -40,6 +40,12 @@
   --color-secondary-blue: #011f4a;
 }
 
+/* -----Base----- */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--color-primery-text);
   font-family: Roboto, sans-serif;
